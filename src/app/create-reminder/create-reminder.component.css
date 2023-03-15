@@ -1,0 +1,44 @@
+.reminder-form-container {
+  background-color: #fafafa;
+  border-radius: 12px;
+  padding: 50px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  position: relative;
+}
+
+.page-content {
+  margin: 0 auto;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title-of-reminder-form {
+  margin: 0 auto;
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title-of-reminder-form h1 {
+  font-size: 25px;
+  padding-bottom: 20px;
+  color: #555;
+}
+
+.btn-primary {
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 0px;
+  text-align: center;
+  background-color: #337eff;
+}
